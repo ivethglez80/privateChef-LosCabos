@@ -1,0 +1,14 @@
+/* Estilos para la barra de desplazamiento personalizada */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #2A282B #1a202c; 
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #2A282B; 
+  }
+  

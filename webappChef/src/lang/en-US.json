@@ -1,0 +1,135 @@
+{
+    "nav.chef": "THE CHEF",
+    "nav.team": "ABOUT US",
+    "nav.menu": "MENU OPTIONS",
+    "nav.service": "SERVICES",
+    "nav.events": "EVENTS",
+    "nav.cabo": "LOS CABOS",
+    "nav.contactUs": "CONTACT US",
+
+    "home.title": "this is home",
+
+    "chef.p1": "From his childhood, Chef Alfonso has been captivated by the art of cooking. His early culinary experiments left family and friends astonished, revealing his innate talent from an early age.",
+    "chef.p2": "With dedication and determination, he studied and specialized in international cuisine, immersing himself in the richness of flavors from around the world.",
+    "chef.p3": "Throughout his career, he has led kitchens in hotels and restaurants in Mexico and the United States, establishing exceptional quality standards. Additionally, he shared his extensive knowledge as a teacher in renowned culinary institutes, inspiring future generations of chefs.",
+    "chef.p4": "Every dish he creates is a culinary masterpiece, the result of years of experience and passion for gastronomy.",
+    "chef.p5": "With a solid academic foundation and a global perspective, this chef blends culinary traditions with innovation, offering unforgettable gastronomic experiences that delight the senses and satisfy the most discerning palates.",
+
+    "chef.phrase": "Gastronomy is not my profession, it is my life.",
+
+    "equipo.title" : "About us",
+    "equipo.p1" : "Each member of Chef Alfonso's working team is a passionate professional with a solid background in the gastronomic and tourism service industry. The Chef has instilled in each of them a passion for excellence, attention to detail, and a clear mission: for you to enjoy unforgettable moments.",
+    "equipo.p2" : "Our service approach is personalized for each occasion, and with unwavering dedication, Chef Alfonso's team is ready to turn every moment into an extraordinary event.",
+    "equipo.p3" : "We diligently work to make your stay in Los Cabos an experience where excellence is the norm, and your satisfaction is our greatest reward.",
+
+    "menu.title1": "The experience",
+    "menu.p1" : "When we indulge in Chef Alfonso's culinary experience, we not only taste the masterful blend of ingredients but also immerse ourselves in a feast of experiences, memories, and narratives that transport us to unforgettable moments and places. ",
+    "menu.p2" : "Every bite is an exhilarating journey that embeds itself in our memory and comfortably settles in the most special corner of our hearts.",
+    "menu.p3" : "Delighting in his creations is not just about nourishing the body; it is about feeding the soul with a symphony of emotions that resonate long after the last delicious note has been savored.",
+    "menu.title2" : "Complete Menu Options:",
+    "menu.p21" : "The menu options presented below are not exhaustive. Contact us to create an exclusive, tailored, and personalized menu for your event or occasion.",
+
+    "menu.app" : "WELCOME MENU",
+    "menu.app1" : "Guacamole | Chips | mexican sauces",
+    "menu.app2" : "Mini Shrimp | seafood Coktail",
+    "menu.app3" : "Tuna sashimi",
+    "menu.app4" : "Seasoned Corn kernels",
+    "menu.app5" : "Quesadillas: chicken | beef | seafood | vegetables",
+    "menu.app6" : "Skew: fruit | chicken | beef | seafood | vegetables ",
+    "menu.app7" : "Mexican street food: sopes | memelas | tostadas | chalupas | and more",
+    "menu.app8" : "Crispy taquitos",
+    "menu.app9" : "Crudites: humus | homemade dressing ",
+    "menu.dr" : "BEVERAGES",
+    "menu.dr1" : "Mezcalitas cocktail",
+    "menu.dr2" : "Fresh fruit mexican drinks (Non-Alcoholic)",
+
+    "menu.br": "BREAKFAST MENU",
+    "menu.br1": "Ranchero Eggs | Divorced Eggs | Mexican Style Eggs",
+    "menu.br2": "Chilaquiles with Eggs",
+    "menu.br3": "Machaca Burrito with Egg",
+    "menu.br4": "Oatmeal with Fruits | Nuts",
+    "menu.br5": "Vegetable Omelette | Chorizo | Cheese",
+    "menu.br6": "Toasted Bread with Avocado and Fresh Leaves",
+    "menu.br7": "Enfrijoladas with Chicken | Cheese",
+    "menu.br8": "Additionally: Cereals | Yogurt | Fruit | Hot Cakes or Waffles | Potatoes with Sausage ",
+    "menu.brDrinks": "Coffee | Tea | Orange Juice",
+
+    "menu.lunch": "MENU LUNCH",
+    "menu.lunch1": "Pick your style, we'll craft the perfect combination",
+    "menu.lunch2": "Seafood party",
+    "menu.lunch3": "Beach BBQ",
+    "menu.lunch4": "Taco party",
+
+    "menu.dinner": "SEA AT NIGHT",
+    "menu.dinner1": "We will create a complete menu to your liking and pleasure, it includes:",
+    "menu.dinner2": "Appetizer and welcome cocktail",
+    "menu.dinner3": "Starter",
+    "menu.dinner4": "Main course",
+    "menu.dinner5": "Dessert",
+    "menu.dinner6": "Wine",
+
+    "menu.mex": "MEXICAN BEACH MENU",
+    "menu.mex1": "Mini mixed snacks",
+    "menu.mex2": "Nopal salad",
+    "menu.mex3": "Shrimp soup | Ceviche | Grilled fish",
+    "menu.mex4": "Steak or garlic shrimp | Diablo style",
+    "menu.mex5": "DESSERTS",
+    "menu.mex6": "Chocolate volcano",
+    "menu.mex7": "Fried Ice Cream",
+    "menu.mex8": "Napolitan Flan",
+
+    "menu.int": "INTERNATIONAL CUISINE",
+    "menu.int1": "Options for complete international menu:",
+    "menu.int2": "Italian",
+    "menu.int3": "Argentinian",
+    "menu.int4": "Japanese",
+    "menu.int5": "Inquire about your preference",
+
+    "menu.tasting": "TEQUILA TASTING",
+    "menu.tasting1": "Enjoy the complete experience we have designed for you",
+    "menu.tasting2": "Variety of Blanco | Reposado | Añejo Tequila",
+    "menu.tasting3": "Delicious pairings at each stage",
+    "menu.tasting4": "The best accompaniment: Mariachi",
+    "menu.tasting5": "",
+
+    "menu.more": "AND MORE...",
+    "menu.more1": "We also offer complete menu options:",
+    "menu.more2": "Vegetarian Menu",
+    "menu.more3": "Coffee and fine pastry service",
+    "menu.end": "The options are endless when you have the service and expertise of Chef Alfonso and his team by your side!",
+
+
+
+
+
+
+
+
+    "svcs.title": "Services",
+    "svcs.desc": "Whatever the occasion or event, we have the available services to make it perfect and unforgettable.",
+    "svcs.1":"Events venue",
+    "svcs.2":"Transportation",
+    "svcs.3":"Mariachis",
+    "svcs.4":"Villa rental",
+    "svcs.5":"Spa",
+    "svcs.6":"Florist",
+    "svcs.7":"Catering",
+    "svcs.8":"DJ",
+    "svcs.9":"Professional Photographer",
+    "svcs.10": "What would you like? let us know!",
+
+    "events.title":"EVENTS & OCCASIONS",
+    "events.1":"We offer a complete range of services to transform your special moments into unforgettable experiences.",
+    "events.2":"Whether you are planning a family vacation, your wedding, a romantic getaway, an intimate engagement dinner, or a high-level corporate event, we are committed to exceeding your expectations and providing exceptional service.",
+    "events.3":"We understand that each event is unique, which is why we customize every detail according to your needs. Contact us!",
+    "events.4":"¡Contact us!",
+
+    "cabos.title": "LOS CABOS",
+    "cabos.1":"Welcome to Los Cabos, a vibrant stage of dazzling contrasts:",
+    "cabos.11":"turquoise waters embracing golden beaches and arid mountains rising majestically towards the sky.",
+    "cabos.2":"Home to the iconic arch, where the Sea of Cortez and the Pacific Ocean converge.",
+    "cabos.3":"With over a decade of experience in this paradise, we've made this corner our gastronomic home.",
+    "cabos.4":"Discover that our service is a celebration of life, art, and local culture.",
+    "cabos.end":"We are awaiting your reservation!"
+
+}
