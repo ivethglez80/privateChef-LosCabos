@@ -15,8 +15,8 @@ const ContactForm = () => {
     })
 
     // const baseUrl = "http://localhost:3001";
-    // const baseUrl = "https://private-chef-los-cabos.vercel.app/";
-     const baseUrl = process.env.NODE_ENV === "production" ? "https://private-chef-los-cabos.vercel.app" : "http://localhost:3001";
+    const baseUrl = "https://private-chef-los-cabos.vercel.app/";
+    // const baseUrl = process.env.NODE_ENV === "production" ? "https://private-chef-los-cabos.vercel.app" : "http://localhost:3001";
 
 
     const sendEmail = async () => {
