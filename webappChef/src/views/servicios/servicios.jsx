@@ -15,15 +15,15 @@ const Servicios = () => {
                     <FormattedMessage id="svcs.desc" defaultMessage="Whatever the occasion or event, we have the available services to make it perfect and unforgettable." />
                 </h2>
                 <ul className="text-slate-200 list-disc pl-12 sm:text-xl">
-                    <li><FormattedMessage id="svcs.1" defaultMessage="" /></li>
-                    <li><FormattedMessage id="svcs.2" defaultMessage="" /></li>
-                    <li><FormattedMessage id="svcs.3" defaultMessage="" /></li>
-                    <li><FormattedMessage id="svcs.4" defaultMessage="" /></li>
-                    <li><FormattedMessage id="svcs.5" defaultMessage="" /></li>
-                    <li><FormattedMessage id="svcs.6" defaultMessage="" /></li>
-                    <li><FormattedMessage id="svcs.7" defaultMessage="" /></li>
-                    <li><FormattedMessage id="svcs.8" defaultMessage="" /></li>
-                    <li><FormattedMessage id="svcs.9" defaultMessage="" /></li>
+                    <li><FormattedMessage id="svcs.1" defaultMessage="Events venue" /></li>
+                    <li><FormattedMessage id="svcs.2" defaultMessage="Transportation" /></li>
+                    <li><FormattedMessage id="svcs.3" defaultMessage="Mariachis" /></li>
+                    <li><FormattedMessage id="svcs.4" defaultMessage="Villa rentals" /></li>
+                    <li><FormattedMessage id="svcs.5" defaultMessage="Spa" /></li>
+                    <li><FormattedMessage id="svcs.6" defaultMessage="Florist" /></li>
+                    <li><FormattedMessage id="svcs.7" defaultMessage="Catering" /></li>
+                    <li><FormattedMessage id="svcs.8" defaultMessage="DJ" /></li>
+                    <li><FormattedMessage id="svcs.9" defaultMessage="Professional photographer" /></li>
                 </ul>
                     <p className="font-signature text-yellow-400 text-5xl pt-12 sm:pb-12 flex justify-center"><FormattedMessage id="svcs.10" defaultMessage="Contact us!" /></p>
                 
