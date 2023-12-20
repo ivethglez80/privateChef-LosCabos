@@ -33,7 +33,7 @@ function App() {
             <div className="flex-1 md:h-screen md:overflow-hidden bg-neutral-900">
              
               <a href="https://api.whatsapp.com/send?phone=05491134318192&text=esta es una prueba" target="_blank">
-                <img src={wpplogo} className="sm:fixed md:absolute right-4 sm:right-6 bottom-4 h-[60px] animate-pulse"/>                
+                <img src={wpplogo} className="fixed md:absolute md:right-4 right-6 bottom-4 h-[60px] animate-pulse"/>                
               </a> 
               
               <Routes>

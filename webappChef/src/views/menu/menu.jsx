@@ -40,21 +40,21 @@ const Menu = () => {
                                          
                         border-b-2 border-yellow-400">{/* aqui se contiene todo */}
 
-                <div className="font-txt text-slate-200 sm:py-4 sm:px-6 md:pr-4 md:pl-6 md:overflow-auto custom-scrollbar">{/* los textos */}
+                <div className="font-txt text-slate-200 py-6 px-6 md:pr-4 md:pl-6 md:overflow-auto custom-scrollbar">{/* los textos */}
 
-                <h1 className="font-signature text-yellow-400 text-5xl md:mt-1 md:py-3"><FormattedMessage id="menu.title1" defaultMessage="The experience" /></h1>
+                <h1 className="font-signature text-yellow-400 text-5xl mb-3 md:mt-1 md:py-3"><FormattedMessage id="menu.title1" defaultMessage="The experience" /></h1>
                 <p className="mb-2"><FormattedMessage id="menu.p1" defaultMessage="When we indulge in Chef Alfonso's culinary experience, we not only taste the masterful blend of ingredients but also immerse ourselves in a feast of experiences, memories, and narratives that transport us to unforgettable moments and places." /></p>
                 <p className="mb-2"><FormattedMessage id="menu.p2" defaultMessage="Every bite is an exhilarating journey that embeds itself in our memory and comfortably settles in the most special corner of our hearts. Delighting in his creations is not just about nourishing the body; " /></p>
                 <p className="mb-2"><FormattedMessage id="menu.p3" defaultMessage=" it is about feeding the soul with a symphony of emotions that resonate long after the last delicious note has been savored." /></p>
-                <div className="w-3/4 border-b-2 border-yellow-400"></div>
+                <div className="w-3/4 border-b-2 border-yellow-400 pt-6"></div>
                 
-                <h1 className="font-signature text-yellow-400 sm:text-4xl sm:mt-4 md:text-5xl md:mt-12">
+                <h1 className="font-signature text-yellow-400 text-4xl my-6 md:text-5xl md:mt-12">
                     <FormattedMessage id="menu.title2" defaultMessage="Complete Menu Options:" /></h1>
-                <p><FormattedMessage id="menu.p21" defaultMessage="The menu options presented below are not exhaustive. Contact us to create an exclusive, tailored, and personalized menu for your event or occasion." /></p>
+                <p className="pb-6"><FormattedMessage id="menu.p21" defaultMessage="The menu options presented below are not exhaustive. Contact us to create an exclusive, tailored, and personalized menu for your event or occasion." /></p>
 
                
                {/* welcome menu */}
-               <div className="shadow-md shadow-slate-700 pl-4 pb-4">
+               <div className="shadow-md shadow-slate-700 pl-4 py-4 mb-12">
                 <h2 className="text-yellow-400 font-title tracking-widest sm:mt-8 sm:mb-2 md:mt-12 border-b-2 border-yellow-400 w-2/5 md:mb-2">
                     <FormattedMessage id="menu.app" defaultMessage="WELCOME MENU"/>
                 </h2>
@@ -75,7 +75,7 @@ const Menu = () => {
                 </div>
 
                 {/* breakfast menu */}
-                <div className="shadow-md shadow-slate-700 pl-4 pb-4">
+                <div className="shadow-md shadow-slate-700 pl-4 py-4 mb-12">
                 <h2 className="text-yellow-400 font-title tracking-widest sm:mt-12 sm:mb-2 md:mt-12 border-b-2 border-yellow-400 w-1/3 md:mb-2">
                     <FormattedMessage id="menu.br" defaultMessage="BREAKFAST MENU" />
                 </h2>
@@ -95,7 +95,7 @@ const Menu = () => {
 
 
                 {/* lunch menu */}
-                <div className="shadow-md shadow-slate-700 pl-4 pb-4">
+                <div className="shadow-md shadow-slate-700 pl-4 py-4 mb-12">
                 <h2 className="text-yellow-400 font-title tracking-widest sm:mt-12 sm:mb-2 md:mt-12 border-b-2 border-yellow-400 w-1/3 md:mb-2">
                     <FormattedMessage id="menu.lunch" defaultMessage="MENU LUNCH" />
                 </h2>
@@ -109,7 +109,7 @@ const Menu = () => {
 
 
                  {/* sea at night */}
-                 <div className="shadow-md shadow-slate-700 pl-4 pb-4">
+                 <div className="shadow-md shadow-slate-700 pl-4 py-4 mb-12">
                 <h2 className="text-yellow-400 font-title tracking-widest sm:mt-12 sm:mb-2 md:mt-12 border-b-2 border-yellow-400 w-1/3 md:mb-2">
                     <FormattedMessage id="menu.dinner" defaultMessage="SEA AT NIGHT" />
                 </h2>
@@ -126,7 +126,7 @@ const Menu = () => {
 
 
                 {/* MEXICAN BEACH MENU */}
-                <div className="shadow-md shadow-slate-700 pl-4 pb-4">
+                <div className="shadow-md shadow-slate-700 pl-4 py-4 mb-12">
                 <h2 className="text-yellow-400 font-title tracking-widest sm:mt-12 sm:mb-2 md:mt-12 border-b-2 border-yellow-400 w-1/3 md:mb-2">
                     <FormattedMessage id="menu.mex" defaultMessage="MENU PLAYA MEXICANA" />
                 </h2>
@@ -144,7 +144,7 @@ const Menu = () => {
 
 
                 {/* INTERNATIONAL CUISINE */}
-                <div className="shadow-md shadow-slate-700 pl-4 pb-4">
+                <div className="shadow-md shadow-slate-700 pl-4 py-4 mb-12">
                 <h2 className="text-yellow-400 font-title tracking-widest sm:mt-12 sm:mb-2 md:mt-12 border-b-2 border-yellow-400 w-1/3 md:mb-2">
                     <FormattedMessage id="menu.int" defaultMessage="INTERNATIONAL CUISINE" />
                 </h2>
@@ -160,7 +160,7 @@ const Menu = () => {
 
 
                 {/* TEQUILA TASTING */}
-                <div className="shadow-md shadow-slate-700 pl-4 pb-4">
+                <div className="shadow-md shadow-slate-700 pl-4 py-4 mb-12">
                 <h2 className="text-yellow-400 font-title tracking-widest sm:mt-12 sm:mb-2 md:mt-12 border-b-2 border-yellow-400 w-1/3 md:mb-2">
                     <FormattedMessage id="menu.tasting" defaultMessage="TEQUILA TASTING" />
                 </h2>
@@ -196,7 +196,7 @@ const Menu = () => {
 
                 <div>{/* las imagenes */}
 
-                    <div className="md:h-full sm:h-screen mx-4">
+                    <div className="md:h-full h-screen mx-4">
                         <Carousel>
                             <img src={img20} alt="..." />
                             <img src={imgd4} alt="..." />

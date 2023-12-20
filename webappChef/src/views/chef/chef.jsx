@@ -13,7 +13,7 @@ const Chef = () => {
 
             {/*signature texto y frase*/}
             <div className="">
-                <img src={signature} alt="chef alfonso signature" className="my-8 sm:w-1/2 md:w-2/3"/>
+                <img src={signature} alt="chef alfonso signature" className="py-8 sm:w-1/2 md:w-2/3"/>
 
                 <div className="font-txt text-slate-200 mx-6">
                     <p>

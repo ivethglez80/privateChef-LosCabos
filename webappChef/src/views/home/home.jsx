@@ -7,7 +7,7 @@ const Home = () => {
         <div>
            <img src={hero} alt="logo vacation services" 
            className="       
-           md:h-screen md:w-screen sm:hidden md:block
+           md:h-screen md:w-screen hidden md:block
            "/>
            <img src={herosm} alt="logo holidays at los cabos" 
            className="
