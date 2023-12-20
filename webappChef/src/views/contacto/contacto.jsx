@@ -6,6 +6,19 @@ import mail from "../../img/mail-logo.png"
 import loc from "../../img/location-icono.png"
 
 const Contacto = () => {
+
+    const handleCopyToClipboard = () => {
+        const email = 'privatecheffalgonzalez@gmail.com';
+        const textArea = document.createElement('textarea');
+        textArea.value = email;    
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+        alert('Dirección de correo copiada al portapapeles');
+      };
+
+      
     return (
         <>
             {/* main container */}
@@ -17,7 +30,7 @@ const Contacto = () => {
 
                 <div className="flex flex-row justify-start pb-16">
                     <img src={wpp} alt="" className="h-[40px] pr-5" />
-                    <a href="https://api.whatsapp.com/send?phone=05491134318192&text=Hello, I need more info about the chef services" target="_blank" className="flex flex-col font-title text-slate-400">
+                    <a href="https://api.whatsapp.com/send?phone=05491134318192&text=Hello, I need more info about the chef services" target="_blank" className="flex flex-col font-title text-slate-400 hover:text-slate-100">
                     <h2>WHATSAPP</h2>
                     <p>00-000-0000 0000</p>
                     </a>
@@ -25,7 +38,7 @@ const Contacto = () => {
 
                 <div className="flex flex-row justify-start pb-16 ">
                     <img src={ig} alt="" className="h-[40px] pr-5" />
-                    <a href="https://www.instagram.com/chefalfonsogonzalez/" className="flex flex-col font-title text-slate-400">
+                    <a href="https://www.instagram.com/chefalfonsogonzalez/" target="_blank" className="flex flex-col font-title text-slate-400 hover:text-slate-100">
                     <h2>INSTAGRAM</h2>
                     <p>@ChefAlfonsoGonzalez</p>
                     </a>
@@ -33,10 +46,10 @@ const Contacto = () => {
 
                 <div className="flex flex-row justify-start pb-16 ">
                     <img src={mail} alt="" className="h-[40px] pr-5" />
-                    <a href="mailto:privatecheffalgonzalez@gmail.com" className="flex flex-col font-title text-slate-400" target="_blank">
+                    <div className="flex flex-col font-title text-slate-400 hover:text-slate-100">
                     <h2>E-MAIL</h2>
-                    <p>privatecheffalgonzalez@gmail.com</p>
-                    </a>
+                    <p onClick={handleCopyToClipboard} style={{ cursor: 'pointer' }}> privatecheffalgonzalez@gmail.com </p>
+                    </div>
                 </div>
 
                 <div className="flex flex-row justify-start pb-16">
