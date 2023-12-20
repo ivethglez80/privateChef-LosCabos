@@ -26,7 +26,7 @@ const Equipo = () => {
 
         <div className="font-txt text-slate-200 mx-10 sm:my-6 md:mt-20"> {/* textos */}
 
-        <h1 className="font-signature text-yellow-400 text-5xl flex justify-center md:pb-3 lg:pt-16"><FormattedMessage id="equipo.title" defaultMessage="About us" /></h1>
+        <h1 className="font-signature text-yellow-400 text-5xl flex justify-center md:pb-3 "><FormattedMessage id="equipo.title" defaultMessage="About us" /></h1>
         <p className="mb-4">
             <FormattedMessage id="equipo.p1" defaultMessage="Each member of Chef Alfonso's working team is a passionate professional with a solid background in the gastronomic and tourism service industry. The Chef has instilled in each of them a passion for excellence, attention to detail, and a clear mission: for you to enjoy unforgettable moments." />
         </p>

@@ -9,7 +9,7 @@ const Contacto = () => {
     return (
         <>
             {/* main container */}
-            <div className="md:h-screen md:grid md:grid-cols-2 lg:pt-10
+            <div className="md:h-screen md:grid md:grid-cols-2 
                             sm:flex sm:flex-col-reverse                   
                             border-b-2 border-yellow-400">
 

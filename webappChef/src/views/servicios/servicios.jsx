@@ -7,7 +7,7 @@ const Servicios = () => {
         <div className="md:h-screen md:grid md:grid-cols-2
                         border-b-2 border-yellow-400">{/* main container */}
 
-            <div className="pt-12 lg:pt-16 flex flex-col px-10">{/* texts */}
+            <div className="pt-12 flex flex-col px-10">{/* texts */}
                 <h1 className="font-signature text-yellow-400 text-5xl flex justify-center pb-6">
                     <FormattedMessage id="svcs.title" defaultMessage="Services"/>
                 </h1>
@@ -29,7 +29,7 @@ const Servicios = () => {
                 
             </div>{/* texts ends*/}
 
-            <div className="sm:ml-5 lg:pt-10">{/* pics */}
+            <div className="sm:ml-5 ">{/* pics */}
 
                 <div className="md:grid md:grid-cols-3 md:grid-rows-3 md:gap-1                                
                                 sm:flex sm:flex-wrap">

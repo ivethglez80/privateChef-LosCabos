@@ -14,7 +14,7 @@ const ContactForm = () => {
         consulta: ""
     })
 
-    const baseUrl = "http://localhost:3001";
+    const baseUrl = "https://private-chef-los-cabos.vercel.app/";
 
     const sendEmail = async () => {
         let dataSend = {

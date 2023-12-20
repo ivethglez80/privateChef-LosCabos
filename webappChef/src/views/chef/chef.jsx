@@ -13,20 +13,20 @@ const Chef = () => {
 
             {/*signature texto y frase*/}
             <div className="">
-                <img src={signature} alt="chef alfonso signature" className="my-8 sm:w-1/2 md:w-2/3 lg:pt-16"/>
+                <img src={signature} alt="chef alfonso signature" className="my-8 sm:w-1/2 md:w-2/3"/>
 
                 <div className="font-txt text-slate-200 mx-6">
                     <p>
-                        <FormattedMessage id="chef.p1" defaultMessage="aqui va el parrafo 1" />
+                        <FormattedMessage id="chef.p1" defaultMessage="From his childhood, Chef Alfonso has been captivated by the art of cooking. His early culinary experiments left family and friends astonished, revealing his innate talent from an early age." />
                     </p>
                     <p>
-                        <FormattedMessage id="chef.p2" defaultMessage="aqui va el parrafo 2" />
+                        <FormattedMessage id="chef.p2" defaultMessage="With dedication and determination, he studied and specialized in international cuisine, immersing himself in the richness of flavors from around the world." />
                     </p>
                     <p>
-                        <FormattedMessage id="chef.p3" defaultMessage="aqui va el parrafo 3" />
+                        <FormattedMessage id="chef.p3" defaultMessage="Every dish he creates is a culinary masterpiece, the result of years of experience and passion for gastronomy." />
                     </p>
                     <p>
-                        <FormattedMessage id="chef.p4" defaultMessage="aqui va el parrafo 4" />
+                        <FormattedMessage id="chef.p4" defaultMessage="With a solid academic foundation and a global perspective, this chef blends culinary traditions with innovation, offering unforgettable gastronomic experiences that delight the senses and satisfy the most discerning palates." />
                     </p>
                     {/* <p>
                         <FormattedMessage id="chef.p5" defaultMessage="aqui va el parrafo 5" />
@@ -34,7 +34,7 @@ const Chef = () => {
                 </div>
 
                     <p className="font-signature text-yellow-200 text-right pr-2 text-4xl font-medium my-6">
-                        <FormattedMessage id="chef.phrase" defaultMessage="aqui va la frase" />
+                        <FormattedMessage id="chef.phrase" defaultMessage="Gastronomy is not my profession, it is my life." />
                     </p>
             </div>
 
