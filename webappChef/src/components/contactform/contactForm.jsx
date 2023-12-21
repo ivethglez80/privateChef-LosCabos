@@ -111,13 +111,13 @@ const ContactForm = () => {
                     <TextInput type="text" name="residence" value={state.residence} placeholder="City, Country" required  onChange={handleInput}></TextInput>
                 </div>
                 </div>
-                <div className="flex justify-between">
-                <div className="mb-3">                   
+                <div className="flex justify-between">{/* date and guests */}
+                <div className="mb-3 w-3/6">                   
                     <Label htmlFor="fecha" value="Required service date:" className="font-txt text-slate-200"></Label>                   
                     <TextInput type="text" name="date" value={state.date} placeholder="dd/mm/yyyy" required onChange={handleInput}></TextInput>                  
                     
                 </div>
-                <div className="mb-3">                   
+                <div className="mb-3 w-1/3">                   
                     <Label htmlFor="people" value="Number of guests:" className="font-txt text-slate-200"></Label>                   
                     <Select name="people" required  value={state.people} onChange={handleInput}>
                         <option >1 to 5</option>
