@@ -23,10 +23,10 @@ const Contacto = () => {
         <>
             {/* main container */}
             <div className="md:h-screen md:grid md:grid-cols-2 
-                            sm:flex sm:flex-col-reverse                   
+                            flex flex-col-reverse                   
                             border-b-2 border-yellow-400">
 
-                <div className="md:m-20 md:block sm:m-10 sm:pl-20 md:pl-14 pt-3 md:border-r-2 md:border-yellow-400">{/* contact info */}
+                <div className="md:m-16 md:block m-10 md:pl-0 pt-3 md:border-r-2 md:border-yellow-400">{/* contact info */}
 
                 <div className="flex flex-row justify-start pb-16">
                     <img src={wpp} alt="" className="h-[40px] pr-5" />
@@ -62,7 +62,7 @@ const Contacto = () => {
 
                 </div> {/* contact info ends */}
 
-                <div className="my-12 sm:mx-auto  flex justify-start"> {/* contactForm */}
+                <div className="my-12 mx-6  flex justify-start"> {/* contactForm */}
                     <ContactForm />
                 </div> {/* contactForm ends*/}
                 

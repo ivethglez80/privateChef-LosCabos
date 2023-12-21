@@ -37,7 +37,7 @@ const Eventos = () => {
 
 
                 <div className="flex justify-center md:relative"> 
-                    <div className="absolute text-slate-200 w-5/6 md:w-2/3 sm:mt-6 md:mt-14 lg:mt-24 p-4 rounded-xl bg-slate-800 bg-opacity-50">
+                    <div className="absolute text-slate-200 w-5/6 md:w-2/3 mt-6 md:mt-14 lg:mt-24 p-4 rounded-xl bg-slate-800 bg-opacity-50">
                         <h1 className="sm:text-3xl md:text-4xl text-yellow-300 font-title flex justify-center">
                             <FormattedMessage id="events.title" defaultMessage="EVENTS & OCASSIONS" />
                         </h1>
@@ -71,7 +71,7 @@ const Eventos = () => {
                                 key={i}
                                 src={image}
                                 alt={`slide-${i}`}
-                                className="sm:w-full sm:h-auto md:h-screen md:w-screen object-cover block"
+                                className="w-auto h-screen md:h-screen md:w-screen object-cover block"
                             />
                         </Transition>
                     ))}

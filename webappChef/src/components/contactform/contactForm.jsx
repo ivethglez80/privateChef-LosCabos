@@ -84,10 +84,10 @@ const ContactForm = () => {
 
 
     return (
-        <div className="sm: flex flex-row">
+        <div className=" flex flex-row">
         <div >
             <form onSubmit={handleSubmit} >
-                <div className="flex gap-5">
+                <div className="flex gap-5">{/* name and lastName */}
                 <div className="mb-3 w-1/2">                   
                     <Label htmlFor="name1" value="Name:" className="font-txt text-slate-200"></Label>                   
                     <TextInput type="text" name="nombre" value={state.nombre} placeholder="Name" required onChange={handleInput}></TextInput>
@@ -101,12 +101,12 @@ const ContactForm = () => {
                     <Label htmlFor="email" value="E-mail:" className="font-txt text-slate-200"></Label>                    
                     <TextInput type="email" name="email" value={state.email} placeholder="name@mail.com" onChange={handleInput}></TextInput>
                 </div>
-                <div className="flex justify-between">
-                <div className="mb-3">                   
+                <div className="flex flex-col md:flex-row md:justify-between">{/* wpp and country */}
+                <div className="mb-3 ">                   
                     <Label htmlFor="mobile" value="Whatsapp:" className="font-txt text-slate-200"></Label>                   
                     <TextInput type="number" name="whatsapp" value={state.whatsapp} placeholder="(00)-00-00000000" required  onChange={handleInput}></TextInput>
                 </div>
-                <div className="mb-3">                   
+                <div className="mb-3 ">                   
                     <Label htmlFor="country" value="Country and city of residence:" className="font-txt text-slate-200"></Label>                   
                     <TextInput type="text" name="residence" value={state.residence} placeholder="City, Country" required  onChange={handleInput}></TextInput>
                 </div>
